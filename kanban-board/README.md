@@ -1,18 +1,41 @@
-# React + Vite
+# 📋 Enterprise Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly interactive Kanban board built with React and Vite. Designed with a clean, professional interface, it allows users to manage tasks, create dynamic workflows, and maintain productivity without missing a beat. All data is persisted locally so you never lose your progress.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*(Add your screenshots here by placing your images in the `public` or `src/assets` folder and updating the paths below)*
 
-## React Compiler
+![Board Overview](./src/assets/image_2026-03-12_210153029.png)
+*Above: The main board view featuring Dark Mode and custom priority labels.*
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Features
 
-Note: This will impact Vite dev & build performances.
+* **Seamless Drag & Drop:** Smooth, flicker-free drag-and-drop interactions. Cards automatically "make space" for the dragged item to show exactly where it will land.
+* **Dynamic List Management:** * Create new lists on the fly.
+    * Rename, Copy, or Delete entire lists.
+    * Sort lists alphabetically or by Task Priority.
+* **Advanced Task Handling:**
+    * Inline card creation with Title, Description, and Priority settings (Low, Medium, High).
+    * Color-coded priority bookmarks on every card.
+    * Edit existing tasks or move them to the Archive.
+* **Archive System:** A dedicated slide-out panel to view and restore archived tasks, keeping your active board clutter-free.
+* **Theme Toggle:** Beautiful, high-contrast Dark Mode and crisp Light Mode.
+* **Search & Filter:** Instantly filter your board to find specific tasks.
+* **State Persistence:** Everything is automatically saved to your browser's `localStorage`.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Framework:** React (via Vite for lightning-fast HMR)
+* **Styling:** Pure CSS with CSS Variables for dynamic theming
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **Drag & Drop:** Native HTML5 Drag and Drop API
+
+## 🚀 Local Setup & Installation
+
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository** (if you haven't already):
+   ```bash
+   git clone [https://github.com/yourusername/kanban-board.git](https://github.com/yourusername/kanban-board.git)
+   cd kanban-board
