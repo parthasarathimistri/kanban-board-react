@@ -4,7 +4,6 @@ A modern, highly interactive Kanban board built with React and Vite. Designed wi
 
 ## Screenshots
 
-*(Add your screenshots here by placing your images in the `public` or `src/assets` folder and updating the paths below)*
 
 ![Board Overview](./src/assets/image_2026-03-12_210153029.png)
 *Above: The main board view featuring Dark Mode and custom priority labels.*
